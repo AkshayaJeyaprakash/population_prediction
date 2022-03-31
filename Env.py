@@ -10,7 +10,7 @@ from sklearn.metrics import mean_squared_error
 import streamlit as st
 
 def predict_pop(df):
-    year = df['YEAR']
+    year = df["YEAR"]
     pop = df['POPULATION (in millions)']
     X1 = pop.values
     train1 = X1[0:len(X1)]
@@ -76,6 +76,7 @@ if choice=="PREDICT THE NATION":
                 df = pd.read_csv(f)
             except: 
                 st.warning("you need to upload a csv or excel file.")
+        st.dataframe(df)
         predict_pop(df)
 
 elif choice =="ABOUT ME":
