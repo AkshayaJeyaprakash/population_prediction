@@ -69,6 +69,7 @@ if choice=="PREDICT THE NATION":
     st.subheader("Done by: TEAM-1 [AIE'24]")
     f = st.file_uploader("Choose a csv or excel file")
     if f is not None:
+        st.write("not none")
         try:
             df = pd.read_excel(f)
         except:
