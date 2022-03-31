@@ -72,9 +72,11 @@ if choice=="PREDICT THE NATION":
         st.write("not none")
         try:
             df = pd.read_excel(f)
+            st.write("excel")
         except:
             try:
                 df = pd.read_csv(f)
+                st.write("csv")
             except: 
                 st.warning("you need to upload a csv or excel file.")
         st.dataframe(df)
