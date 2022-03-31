@@ -56,7 +56,7 @@ def predict_pop(df):
     st.write("Total industrial buildings in INDIA in sq.feet = ",buildings)
     left = "Remaining space in sq.feet = " + str(remaining_space)
     st.subheader(left)
-    st.image("think.PNG")
+    st.image("think.png")
     st.subheader("will this space be enough for me and my family to live ???")
     
     
@@ -87,4 +87,4 @@ elif choice =="ABOUT ME":
     st.write("MORE THE AMOUNT OF DATA GIVEN AS AN INPUT, MORE ACCURATE THE PREDICTIONS ARE !!! ")
     st.write(" ")
     st.write("THE HISTORY OF POPULATION MUST BE UPLADED AS .XLS OR .CSV...\nTHE .CSV OR THE .XLS FILE UPLOADED MUST STRICTLY OBEY THE FORMAT GIVEN BELOW")
-    st.image("file.PNG")
+    st.image("file.png")
