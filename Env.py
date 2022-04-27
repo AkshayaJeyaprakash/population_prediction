@@ -81,7 +81,7 @@ if choice=="PREDICT THE NATION":
         predict_pop(df)
 
 elif choice =="ABOUT ME":
-    st.title("PREDICT YOUR STOCK")
+    st.title("PREDICT THE NATION")
     st.subheader("Done by: TEAM-1 [AIE'24]")
     st.write(" ")
     st.write("THIS WEB APPLICATION WILL PREDICT THE POPULATION OF ANY GEOGRAPHICAL LOCATION FOR \nTHE NEXT 30 YEARS PROVIDED THE PROPER DATA INPUT IS GIVEN FOR PREVIOUS 100 \nYEARS [AT THE LEAST]")
